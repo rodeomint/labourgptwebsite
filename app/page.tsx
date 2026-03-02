@@ -232,6 +232,8 @@ export default function LabourPlatformWebsite() {
           email: form.email.trim().toLowerCase(),
           phone: form.phone.trim(),
           interest: form.interest.trim(),
+          consent: form.consent,
+          website: form.website.trim(),
           submittedAt: new Date().toISOString(),
           source: "labour-platform-website",
         }),
